@@ -6,16 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/client.js"></script>
+    <script src="js/client2.js"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header><h1>Playfair</h1></header>
     <main>
+        <section></section>
         <h2>Students</h2>
         <ul id="students">
             <!--jQuery will fill this in-->
         </ul>
+        </section>
+        <section>
+            <h2>Task List</h2>
+            <h3>Add Task</h3>
+            <form>
+                <label>Task Name:</label>
+                <input id="task-name" type="text"/>
+                <button id="add-task" type="submit">Add Task</button>
+            </form>
+            <h3>All Tasks</h3>
+            <button id="clear-tasks">Remove all</button>
+            <ul id="task-list">
+                <!--JQwery will fill this in as we add tasl-->
+
+            </ul>
+        </section>
     </main>
     
 </body>

@@ -60,6 +60,10 @@ form {
     text-align: center;
 }
 
-.text-light{
+.text-light {
     color: wheat
+}
+
+.important {
+    background-color: goldenrod
 }
