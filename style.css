@@ -1,0 +1,65 @@
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: rgb(197, 93, 192);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-block-color: white;
+
+
+}
+
+
+body {
+    background-color: rgb(185, 183, 51);
+}
+
+header {
+    background-color: firebrick;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+button { 
+    color: yellow;
+    background-color: black;
+}
+
+h1 {
+    margin: 0px
+}
+
+#about {
+    background-color: blanchedalmond
+}
+
+#addPet {
+    background-color: darkorchid;
+}
+
+.info {
+    text-align: center;
+}
+
+.info ul {
+    list-style-type: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.text-light{
+    color: wheat
+}

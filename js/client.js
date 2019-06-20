@@ -18,17 +18,18 @@ function onReady(){
 
     //need to select something already in the DOM
     //can filter event to somehting dyamically generated
-    //do this with the second arg to 'on' function
+    //do this with the second arg to 'on' 
     $('#students').on('click', '.student', showAwesomeAlert);
-    //dont do this
-   // $('.student').on('click', '.student', showAwesomeAlert);
+
 }
 //this function will be called when we click on a student
 //It will show an alert saying that student is awesome.
 function showAwesomeAlert (event) {
-    console.log(event);
-    console.log('this', this)
-    alert('check console log')
+    //console.log('event', event);
+    //console.log('this', this)
+    //alert('check console log')
+    let studentName = $(this).text();
+    alert(`${studentName} is awesome!!`);
 }
 
 //looping through arguemnt array and passing each item to 
